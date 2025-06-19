@@ -6,18 +6,28 @@ using UnityEngine;
 public class IndicationCharacterStatus : MonoBehaviour
 {
     public GameData gameData;
+    public AllCharacters allCharacters;
+    private bool isStart;
     public TextMeshProUGUI NameSpaceText;
     public TextMeshProUGUI StatusSpaceText;
     void Start()
     {
-        gameData.IndexCounter = 0;
-        indicationCharacterStatus(gameData.CharactersList[gameData.IndexCounter]);
+        isStart = false;
+        allCharacters.isCharacterLoaded += () =>
+        {
+            gameData.IndexCounter = 0;
+            indicationCharacterStatus(gameData.CharactersList[gameData.IndexCounter]);
+            isStart = true;
+        };
     }
 
     // Update is called once per frame
     void Update()
     {
-        indicationCharacterStatus(gameData.CharactersList[gameData.IndexCounter]);
+        if (isStart)
+        {
+            indicationCharacterStatus(gameData.CharactersList[gameData.IndexCounter]);
+        }
     }
 
     private void indicationCharacterStatus(Characters character)

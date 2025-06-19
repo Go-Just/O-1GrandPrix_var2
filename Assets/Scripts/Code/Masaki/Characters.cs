@@ -10,4 +10,5 @@ public class Characters : ScriptableObject
     public int boke_tukkomi;
     public int jinnkaku;
     public int kannseido;
+    public bool isGet;
 }
