@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40ac6252469fa714e8e7f86ee7f91731, type: 3}
+  m_Name: MaCharacter_4
+  m_EditorClassIdentifier: 
+  CharacterID: 3
+  Charactername: "\u5341\u516D\u591C\u54B2\u591C"
+  boke_tukkomi: 4
+  jinnkaku: 1
+  kannseido: 2
+  isGet: 0
