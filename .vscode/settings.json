@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "O-1GrandPrix.sln"
+    "dotnet.defaultSolution": "O-1GrandPrix_var2.sln"
 }
