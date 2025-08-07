@@ -14,8 +14,8 @@
 
 # Font用のフォルダだけignoreに設定し除外
 Assets/Scripts/Code/Masaki/JapanFont
-Assets/Scripts/Code/Masaki/JapanFont
-Assets/Scripts/Code/Masaki/JapanFont
+Assets/Scripts/Code/Misaki/JapanFont
+Assets/Scripts/Code/kyouko/JapanFont
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
 *.blend1
