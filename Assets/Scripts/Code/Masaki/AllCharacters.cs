@@ -29,6 +29,8 @@ public class AllCharacters : MonoBehaviour
         {
             gameData.CharactersList.Add(character);
         });
+
+        gameData.CharactersList.Sort((a, b) => b.CharacterID.CompareTo(a.CharacterID));
         await handle.Task;
 
         isCharacterLoaded.Invoke();

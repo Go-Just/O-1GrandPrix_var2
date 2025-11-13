@@ -16,7 +16,31 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 6de578092fdfdd34384a06abd1c5ac2d
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 0252ffbbca087bb46a4f76d19bf011fa
+    m_Address: Assets/Scripts/GameData/CharacterData/MaCharacter_1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - geininn
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c181f5794562a6545b71f49bcd193794
+    m_Address: Assets/Scripts/GameData/CharacterData/MaCharacter_2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - geininn
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe7db43e3ca9a064c8fd068f5bcdb6c5
+    m_Address: Assets/Scripts/GameData/CharacterData/MaCharacter_3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - geininn
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c49cfd3f230ded4a8b158467e6a94ef
+    m_Address: Assets/Scripts/GameData/CharacterData/MaCharacter_4.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - geininn
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 00b3b01083cafe648b80ff22058a0fbb, type: 2}
   m_SchemaSet:

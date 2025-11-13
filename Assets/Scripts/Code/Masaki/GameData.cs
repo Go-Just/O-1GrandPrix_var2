@@ -6,4 +6,6 @@ public class GameData : ScriptableObject
 {
     public List<Characters> CharactersList;
     public int IndexCounter;
+    public int Item;
+    public int UseItemCount;
 }

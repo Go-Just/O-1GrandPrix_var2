@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Button_Manager : MonoBehaviour
 {
     private int Counter;
     public GameData gameData;
+
+    public TextMeshProUGUI UseItemSpaceText;
     public void OnClick()
     {
         Counter++;
@@ -64,7 +67,7 @@ public class Button_Manager : MonoBehaviour
         }
     }
 
-    public void NextIndex(int BorderNum, int BorderNextNum,int SumNum)
+    public void NextIndex(int BorderNum, int BorderNextNum, int SumNum)
     {
         if (gameData.IndexCounter == BorderNum)
         {
@@ -77,4 +80,20 @@ public class Button_Manager : MonoBehaviour
     }
 
     //6.19Character.isGetがTrueであれば表示できる。ここまで(Script自体はIndicationCharacterStatusで問題ないはず？)
+
+    public void ItemUsePlus()
+    {
+        if (0 <= gameData.UseItemCount && gameData.UseItemCount <= gameData.Item - 1)
+        {
+            gameData.UseItemCount++;
+        }
+    }
+
+    public void ItemUseMinus()
+    {
+        if (1 <= gameData.UseItemCount && gameData.UseItemCount <= gameData.Item)
+        {
+            gameData.UseItemCount--;
+        }
+    }
 }
